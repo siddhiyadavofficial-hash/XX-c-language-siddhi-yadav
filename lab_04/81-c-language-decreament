@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+    printf("post decreament:\n");
+    int a=3,b=a--;//post decreament
+    printf("%d\n%d\n" ,a,b);
+     printf("pre-decreament:/n");
+    int c=6,d=--c;//pre-decreament
+    printf("%d\n%d",c,d);
+
+
+     return 0;
+}
