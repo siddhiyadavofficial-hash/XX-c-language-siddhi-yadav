@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main(){
+    printf("post increament:\n");
+    int a=3,b=a++;//post increament
+    printf("%d\n%d\n" ,a,b);
+     printf("pre-increament:/n");
+    int c=6,d=++c;//pre-increament
+    printf("%d\n%d",c,d);
+
+
+     return 0;
+}
